@@ -17,13 +17,15 @@
 \usepackage{psfrag}
 \usepackage{pgfplots}
 \usepackage{bm}
+\usepackage[spanish, mexico]{babel}
+\usepackage{biblatex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Other Settings
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\geometry{a4paper}
-
+\geometry{letterpaper}
+\graphicspath{/img}
 %%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
 \definecolor{ocre}{RGB}{243,102,25}
 \definecolor{mygray}{RGB}{243,243,244}
@@ -58,17 +60,6 @@
 \author{José Antonio Hernández Gutiérrez}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-    \maketitle
-    Apuntes: Cálculo Diferencial 
-    \lipsum[2]
-    $\mathbb{R}$
-    \begin{equation}
-        
-    \end{equation}
-    \begin{itemize}
-        \item 1
-        \item 2
-        \item 3
-        \item 4
-    \end{itemize}
+\maketitle
+\input{lib/chapter1.tex}
 \end{document}
