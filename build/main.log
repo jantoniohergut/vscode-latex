@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.26) (preloaded format=pdflatex 2022.7.27)  31 JUL 2022 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.26) (preloaded format=pdflatex 2022.7.27)  31 JUL 2022 00:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -863,7 +863,10 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count460
 \@quotereset=\count461
-(c:\Users\José A Hernández G\Desktop\vscode-latex\build\main.aux)
+(c:\Users\José A Hernández G\Desktop\vscode-latex\build\main.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -951,13 +954,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (c:\Users\José A Hernández G\Desktop\vscode-latex\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 62.
 Package biblatex Info: Reference segment=0 on input line 62.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
-(C:\Users\José A Hernández G\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\José A Hernández G\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
@@ -972,26 +974,18 @@ LaTeX Info: Redefining \sptext on input line 7.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37015 strings out of 478337
- 908311 string characters out of 2829550
- 1916157 words of memory out of 3000000
+ 37017 strings out of 478337
+ 908441 string characters out of 2829550
+ 1916221 words of memory out of 3000000
  54870 multiletter control sequences out of 15000+600000
  481428 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,7n,103p,768b,1773s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,7n,103p,768b,1772s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/José A Hernández G/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/José A Hernández G/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/José A Hernández G/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/José A Hernández G/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on "c:\Users\José A Hernández G\Desktop\vscode-latex\build\main.pdf" (1 page, 45941 bytes).
 PDF statistics:
